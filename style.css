@@ -1,5 +1,5 @@
-body{
-    background-color: crimson;
+:root{
+    background-color: #c32a2a;
 }
 
 * {
@@ -23,6 +23,7 @@ h2{
 .container{
     width: 100vw;
     height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
@@ -38,4 +39,11 @@ h2{
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.btn {
+    padding: 2rem 0;
+    width: 30rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, rgb(180,136,17) 0%, rgb(162,121,13) 100%);
 }

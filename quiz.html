@@ -1,0 +1,58 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quiz.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>TV Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <h1 id="question">??????????</h1>
+
+            <form action="#">
+                <p>
+                  <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Red</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" />
+                    <span>Yellow</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input class="with-gap" name="group1" type="radio"  />
+                    <span>Green</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" disabled="disabled" />
+                    <span>Brown</span>
+                  </label>
+                </p>
+              </form>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
