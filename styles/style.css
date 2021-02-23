@@ -82,3 +82,12 @@ h2 {
     font-size: 11px !important;
   }
 }
+
+#carousel{
+  position: relative;
+}
+
+#home{
+  position: absolute;
+  bottom:140px;
+}
