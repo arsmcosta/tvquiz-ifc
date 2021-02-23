@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <link rel="stylesheet" href="styles/materialize.css" />
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -22,11 +15,36 @@
   </head>
   <body>
     <div class="container">
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/The-Lord-of-the-Rings.jpg" /></a>
+        <a class="carousel-item" href="#two!"><img src="img/vikings.jpg" /></a>
+        <a class="carousel-item" href="#three!"><img src="img/titanic.jpg" /></a>
+        <a class="carousel-item" href="#four!"
+          ><img src="img/starwars.jpg"
+        /></a>
+        <a class="carousel-item" href="#five!"
+          ><img src="img/La-casa-de-papel.jpg"
+        /></a>
+      </div>
       <div id="home" class="flex-column flex-center">
         <h1>Are you ready?</h1>
-        <a href="/quiz.html" class="waves-effect waves-light btn-large">Play!</a>
-        <a href="/highScores.html" id="highscore-btn" class="waves-effect waves-light btn-large">High Scores</a>
+        <a href="/quiz.html" class="waves-effect waves-light btn-large"
+          >Play!</a
+        >
+        <a
+          href="/highScores.html"
+          id="highscore-btn"
+          class="waves-effect waves-light btn-large"
+          >High Scores</a
+        >
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
   </body>
 </html>
