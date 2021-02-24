@@ -4495,12 +4495,6 @@ html {
   color: rgba(0, 0, 0, 0.87);
 }
 
-@media only screen and (min-width: 0) {
-  html {
-    font-size: 14px;
-  }
-}
-
 @media only screen and (min-width: 992px) {
   html {
     font-size: 14.5px;
@@ -8362,7 +8356,7 @@ input[type=range]::-ms-thumb {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 200px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
