@@ -96,7 +96,7 @@ let questions = [
     question:
       "Na saga Harry Potter, qual o nome verdadeiro de Voldemort?",
     choice1: "Voldemort",
-    choice2: "Tom Roddle",
+    choice2: "Tom Riddle",
     choice3: "Lord Voldemort",
     choice4: "Tom Granger",
     answer: 2, 
@@ -121,7 +121,7 @@ let questions = [
   },
   {
     question:
-      "No seriado 'How I Met Your Mother', Ted Most barra a história de como conheceu a mãe de seus filhos, qual o nome dela?",
+      "No seriado 'How I Met Your Mother', Ted Most narra a história de como conheceu a mãe de seus filhos, qual o nome dela?",
     choice1: "Diana Wilson",
     choice2: "Tracy McConnell",
     choice3: "Victoria Spencer",
@@ -194,7 +194,7 @@ let questions = [
 ];
 
 const SCORE_POINTS = 10;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 15;
 
 startQuiz = () => {
   questionCounter = 0;
